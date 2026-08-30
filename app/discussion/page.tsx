@@ -12,7 +12,6 @@ export default function DiscussionPage() {
     <main className="discussion-page">
       <div className="discussion-header">
         <img src="/open_reposit_animated.svg" alt="Open Reposit logo" />
-        <h1>Open Reposit</h1>
       </div>
 
       <article className="discussion-content">
