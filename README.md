@@ -124,4 +124,4 @@ What would make you actually want to use it?
 
 - Development / technical inquiries: **developers@openreposit.com**
 - Partnerships and institutional collaboration: **partnership@openreposit.com**
-- General inquiries: **enquires@openreposit.com**
+- General inquiries: **enquiries@openreposit.com**
