@@ -3,24 +3,24 @@
   margin: 0 auto;
   padding: 3rem 1.5rem 6rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  color: #e5e5e5;
-  background: #0a0a0a;
+  color: #1a1a1a;
+  background: #ffffff;
 }
 
 .discussion-header {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.25rem;
   margin-bottom: 2.5rem;
 }
 
 .discussion-header img {
-  width: 48px;
-  height: 48px;
+  width: 96px;
+  height: 96px;
 }
 
 .discussion-header h1 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin: 0;
 }
 
@@ -32,18 +32,18 @@
 .discussion-content h2 {
   font-size: 1.4rem;
   margin-top: 2rem;
-  border-bottom: 1px solid #2a2a2a;
+  border-bottom: 1px solid #e5e5e5;
   padding-bottom: 0.4rem;
 }
 
 .discussion-content p,
 .discussion-content li {
   line-height: 1.7;
-  color: #c9c9c9;
+  color: #333333;
 }
 
 .discussion-content a {
-  color: #6ea8fe;
+  color: #2563eb;
 }
 
 .discussion-content img {
@@ -55,5 +55,5 @@
 .discussion-comments {
   margin-top: 4rem;
   padding-top: 2rem;
-  border-top: 1px solid #2a2a2a;
+  border-top: 1px solid #e5e5e5;
 }
