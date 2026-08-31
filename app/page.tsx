@@ -23,8 +23,8 @@ export default function HomePage() {
 
       <div className="home-contact-primary">
         <span className="home-contact-primary-label">General inquiries:</span>{" "}
-        <a href="mailto:enquires@openreposit.com">
-          enquires@openreposit.com
+        <a href="mailto:enquiries@openreposit.com">
+          enquiries@openreposit.com
         </a>
       </div>
 
