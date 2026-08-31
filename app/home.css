@@ -1,0 +1,112 @@
+.home-page {
+  max-width: 640px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1a1a1a;
+  background: #ffffff;
+}
+
+.home-logo {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.home-tagline {
+  font-size: 1.05rem;
+  color: #333333;
+  max-width: 420px;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.home-framing {
+  font-size: 0.9rem;
+  color: #777777;
+  max-width: 380px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.home-cta {
+  display: inline-block;
+  background: #1a1a1a;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.7rem 1.6rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  transition: opacity 0.15s ease;
+}
+
+.home-cta:hover {
+  opacity: 0.85;
+}
+
+.home-contact-primary {
+  font-size: 0.85rem;
+  color: #333333;
+  margin-bottom: 0.6rem;
+}
+
+.home-contact-primary a {
+  color: #333333;
+  font-weight: 500;
+}
+
+.
+cat > app/page.tsx << 'EOF'
+import "./home.css";
+
+export default function HomePage() {
+  return (
+    <main className="home-page">
+      <img
+        src="/logo-homepage.svg"
+        alt="Open Reposit logo"
+        className="home-logo"
+      />
+
+      <p className="home-tagline">
+        An open, structured home for research, ideas, and intellectual work.
+      </p>
+
+      <p className="home-framing">
+        We're figuring out what to build. Come help shape it.
+      </p>
+
+      <a href="/discussion" className="home-cta">
+        Join the discussion
+      </a>
+
+      <div className="home-contact-primary">
+        <span className="home-contact-primary-label">General inquiries:</span>{" "}
+        <a href="mailto:enquires@openreposit.com">
+          enquires@openreposit.com
+        </a>
+      </div>
+
+      <div className="home-contact-secondary">
+        <span className="home-contact-secondary-label">Technical:</span>{" "}
+        <a href="mailto:developers@openreposit.com">
+          developers@openreposit.com
+        </a>
+        {" · "}
+        <span className="home-contact-secondary-label">Partnerships:</span>{" "}
+        <a href="mailto:partnership@openreposit.com">
+          partnership@openreposit.com
+        </a>
+      </div>
+    </main>
+  );
+}
