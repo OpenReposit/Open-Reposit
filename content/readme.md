@@ -1,7 +1,9 @@
 # Open-Reposit
 # What should we build?
 
-![OpenReposit logo](.//open_reposit_animated.svg)
+![OpenReposit logo](../public/open_reposit_animated.svg)
+
+
 
 ## The problem
 
