@@ -45,7 +45,7 @@
   border-radius: 8px;
   font-size: 0.95rem;
   font-weight: 500;
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
   transition: opacity 0.15s ease;
 }
 
@@ -54,9 +54,9 @@
 }
 
 .home-contact-primary {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: #333333;
-  margin-bottom: 0.6rem;
+  margin-bottom: 1rem;
 }
 
 .home-contact-primary a {
@@ -64,49 +64,20 @@
   font-weight: 500;
 }
 
-.
-cat > app/page.tsx << 'EOF'
-import "./home.css";
+.home-contact-primary-label {
+  color: #999999;
+}
 
-export default function HomePage() {
-  return (
-    <main className="home-page">
-      <img
-        src="/logo-homepage.svg"
-        alt="Open Reposit logo"
-        className="home-logo"
-      />
+.home-contact-secondary {
+  font-size: 0.8rem;
+  color: #777777;
+  margin-top: 0.5rem;
+}
 
-      <p className="home-tagline">
-        An open, structured home for research, ideas, and intellectual work.
-      </p>
+.home-contact-secondary a {
+  color: #777777;
+}
 
-      <p className="home-framing">
-        We're figuring out what to build. Come help shape it.
-      </p>
-
-      <a href="/discussion" className="home-cta">
-        Join the discussion
-      </a>
-
-      <div className="home-contact-primary">
-        <span className="home-contact-primary-label">General inquiries:</span>{" "}
-        <a href="mailto:enquires@openreposit.com">
-          enquires@openreposit.com
-        </a>
-      </div>
-
-      <div className="home-contact-secondary">
-        <span className="home-contact-secondary-label">Technical:</span>{" "}
-        <a href="mailto:developers@openreposit.com">
-          developers@openreposit.com
-        </a>
-        {" · "}
-        <span className="home-contact-secondary-label">Partnerships:</span>{" "}
-        <a href="mailto:partnership@openreposit.com">
-          partnership@openreposit.com
-        </a>
-      </div>
-    </main>
-  );
+.home-contact-secondary-label {
+  color: #aaaaaa;
 }
